@@ -2,7 +2,12 @@
 ## Build Docker image
 
 ```
-docker build -t myjenkins-blueocean:2.332.3-1 .
+docker build . -t myjenkins
+```
+
+### Create the network 'jenkins'
+```
+docker network create jenkins
 ```
 
 
